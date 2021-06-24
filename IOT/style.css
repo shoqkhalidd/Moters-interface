@@ -22,7 +22,7 @@ h1{
 
 .background{
   
-height: 400px;
+  height: 400px;
   width: 800px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -44,11 +44,11 @@ height: 400px;
   transform: translate(-50%, -50%);
   width: 300px;
   height: 400px;
-  background: #111845a6;
+  background: #222e7ca6;
   box-sizing: border-box;
   overflow: hidden;
   box-shadow: 0 20px 50px rgb(23, 32, 90);
-  border: 2px solid #2a3cad;
+  border: 2px solid #4557cc;
   color: white;
   padding: 20px;
   font-size: 13px;
@@ -153,9 +153,9 @@ button[type="submit"]{
   box-sizing: border-box;
   appearance: none;
   background-color: transparent;
-  border: 2px solid blue;
+  border: 2px solid #7740b6;
   border-radius: 0.6em;
-  color: blue;
+  color: #7740b6;
   cursor: pointer;
   display: inline-block;
   align-self: center;
@@ -185,7 +185,7 @@ button[class="f"]{
 
 button[type="submit"]:hover{
   transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
-  box-shadow: 0 0 40px 40px blue inset;
+  box-shadow: 0 0 40px 40px #7740b6 inset;
   color: #fff;
     
 }
@@ -209,7 +209,7 @@ button[type="submit"]:hover{
   width: 15px;
   height: 15px;
   border-radius: 50%; 
-  background: blue;
+  background: #7740b6;
   cursor: pointer;
 }
 
@@ -217,7 +217,7 @@ button[type="submit"]:hover{
   width: 5px;
   height: 25px;
   border-radius: 50%;
-  background: blue;
+  background: #7740b6;
   cursor: pointer;
 }
 
